@@ -1,0 +1,26 @@
+#!/usr/bin/bash
+
+
+
+
+
+c1:	
+	gcc -o chapter1.exe chapter1.c
+
+	
+c2:	
+	gcc -o chapter2.exe chapter2.c
+	
+c3:	
+	gcc -o chapter3.exe chapter3.c
+
+	
+c4:	
+	gcc -o chapter4.exe chapter4.c	
+	
+	
+	
+c5:	
+	gcc -o chapter5.exe chapter5.c
+	
+
