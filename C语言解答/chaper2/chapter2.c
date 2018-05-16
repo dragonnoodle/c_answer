@@ -18,6 +18,9 @@ main()
 	int a1/* just test the comment*/,b1;
 	printf("\\40:%d \\x40:%d \\0123:%d \n", a, b, c);
 	
+
+	
+	
 #endif	
 /*
 **标准输入C代码，保存到当前目录。

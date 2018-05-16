@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
-#dirs:=$(shell find . -maxdepth 1 -type d)
-#dirs:=$(basename $(patsubst ./%,%,$(dirs)))
-#SUBDIRS:=$(dirs)
-#
+dirs:=$(shell find . -maxdepth 1 -type d)
+dirs:=$(basename $(patsubst ./%,%,$(dirs)))
+SUBDIRS:=$(dirs)
+
 #TARGET = $(notdir $(CURDIR)) 
 #
 #SRCS:=$(wildcard *.c)
