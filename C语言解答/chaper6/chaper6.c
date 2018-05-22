@@ -46,6 +46,8 @@ return 0;
 
 
 #if 1
+char input_temp[64] = {0};
+
 char*
 reverse_string(char* input)
 {
@@ -53,22 +55,22 @@ reverse_string(char* input)
     char temp;
     int len, i =0;
     len = strlen(ch1);
-    
-    while(*ch1 != '\0')
-    {   
-        if(len %2 == 0)
-        if(len/2 >= i)
-        temp = *(input+i);
-        *(input+i) = *(input +len-1);
-        *(input +len-1) = temp;
+    printf("input:%s\n", ch1);
 
+    for(int i =0; len/2 > i;i++)
+    {
+        temp = *(ch1+i);
+        *(ch1+i) = *(ch1 +len-1-i);
+        *(ch1 +len-1-i) = temp;
     }
-    
-    
-    
+            
+    printf("after reverse:%s\n", input);
 }
 
-
+while(gets(input_temp) != NULL)
+{
+    reverse_string(input_temp);
+}
 #endif
 
 
